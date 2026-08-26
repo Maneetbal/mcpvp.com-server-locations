@@ -1,8 +1,8 @@
 # MCPVP.com Server Locations
 
-A community-maintained reference for the physical server locations used by **MCPVP.com**.
+A community-maintained reference for the physical server locations shown by **MCPVP.com**.
 
-> **Status:** Community-compiled location list. MCPVP.com currently advertises **38 locations**. The official site provides regional totals, while this repository documents the individual cities/locations that have been identified.
+> **Source:** The locations in this list were obtained directly from the **MCPVP.com Minecraft server**, by joining `mcpvp.com` in Minecraft and checking **Settings → Regions**. This repository documents the locations displayed there.
 
 ## North America
 
@@ -33,7 +33,7 @@ A community-maintained reference for the physical server locations used by **MCP
 **MCPVP.com reported North American locations: 14**  
 **One North American location remains unidentified in this list.**
 
-## South America / Latin America
+## South America
 
 - Bogotá, Colombia
 - Buenos Aires, Argentina
@@ -67,7 +67,7 @@ A community-maintained reference for the physical server locations used by **MCP
 ### Southern Africa
 - Johannesburg, South Africa
 
-> Istanbul is included in both regional sections because the city spans Europe and Asia and may be categorized in both European and Middle Eastern regional groupings. It is one physical location, not two separate datacenters.
+> **Istanbul:** Istanbul is included in both the Europe and Middle East sections because the city spans Europe and Asia and may be categorized in both regional groupings. It is one physical location, not two separate datacenters.
 
 ## Asia-Pacific
 
@@ -87,9 +87,9 @@ A community-maintained reference for the physical server locations used by **MCP
 - Perth, Australia
 - Sydney, Australia
 
-## Official MCPVP.com regional totals
+## MCPVP.com Regional Totals
 
-MCPVP.com currently advertises **38 total locations** with the following regional breakdown:
+MCPVP.com advertises **38 total locations** with the following regional breakdown:
 
 | MCPVP.com region | Locations |
 |---|---:|
@@ -102,16 +102,20 @@ MCPVP.com currently advertises **38 total locations** with the following regiona
 | Oceania | 3 |
 | **Total** | **38** |
 
-## Verification notes
+## Verification Notes
 
-- This repository does **not** claim that the unidentified North American location is a particular city.
-- The city list is intended to document locations reported/identified by the community and should be updated when reliable evidence becomes available.
-- Regional naming in this README is organized for readability and does not necessarily match MCPVP.com's exact regional labels.
+- The individual locations above were recorded from the **in-game Regions menu on MCPVP.com**.
+- The official network reports 14 North American locations, while this repository currently identifies 13 of them.
+- The missing North American location is intentionally marked as **unknown** rather than guessed.
+- Regional headings in this README are organized for readability and may differ from MCPVP.com's exact category names.
+- If MCPVP changes its Regions menu, this list should be updated to reflect the current in-game information.
 
 ## Contributing
 
-If you can identify the missing North American location or have reliable evidence for any location listed here, please open an issue or submit a pull request with the source/evidence.
+If you can identify the missing North American location, or find a change to any listed location, please open an issue or submit a pull request. Include a screenshot or other reliable evidence from the MCPVP.com in-game Regions menu when possible.
 
 ## Source
 
-- [MCPVP.com](https://www.mcpvp.com/) — official network site and current advertised location totals.
+**Primary source:** MCPVP.com Minecraft server → **Settings → Regions**.
+
+**Network website:** [https://www.mcpvp.com/](https://www.mcpvp.com/)
