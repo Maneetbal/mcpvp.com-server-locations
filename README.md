@@ -2,7 +2,7 @@
 
 > **MCPVP server locations • MCPVP.com datacenters • Minecraft server regions**
 
-A community-maintained, searchable reference of **MCPVP.com Minecraft server locations and datacenters**. The locations below were recorded directly from the MCPVP.com Minecraft server by joining `mcpvp.com` and checking **Settings → Regions**.
+A community-maintained, searchable reference of **MCPVP.com Minecraft server locations and datacenters**. The locations below were recorded from the MCPVP.com Minecraft server by joining `mcpvp.com` and checking **Settings → Regions**, supplemented by MCPVP's officially published location list where noted.
 
 **Quick links:** [North America](#north-america) · [Latin America](#latin-america) · [Europe](#europe) · [Middle East & Africa](#middle-east--africa) · [Asia](#asia) · [Oceania](#oceania) · [Regional totals](#mcpvpcom-regional-totals)
 
@@ -31,9 +31,15 @@ A community-maintained, searchable reference of **MCPVP.com Minecraft server loc
 ### Mexico
 - Mexico City, Mexico
 
-**Identified North American locations: 13**  
-**MCPVP.com reported North American locations: 14**  
-**One North American location remains unidentified in this list.**
+### Seattle, Washington — Proxy Location
+- **Seattle is officially listed by MCPVP as a North American location.**
+- **Current status:** Appears to be used as proxy/edge infrastructure rather than a selectable game-server region.
+- Seattle does **not currently appear in the in-game Settings → Regions menu** as a selectable game-server location.
+- Based on observed network behavior, Seattle may be serving as a proxy location while Portland is currently used for the corresponding game-server backend.
+- **Future status:** It is possible that Seattle may later become a selectable game-server region, but this is only an estimate and has not been officially confirmed by MCPVP.
+
+**Currently confirmed selectable North American game-server locations: 13**  
+**Additional officially listed North American infrastructure location: Seattle, Washington (proxy/edge; not currently a selectable game-server region)**
 
 ## Latin America
 - Bogotá, Colombia
@@ -90,9 +96,9 @@ A community-maintained, searchable reference of **MCPVP.com Minecraft server loc
 
 ## MCPVP.com Regional Totals
 
-MCPVP.com advertises **38 total locations** with this regional breakdown:
+MCPVP's officially published location list advertises **38 total locations**, with the following regional breakdown. **Seattle is included in that official North American location count, but is currently documented here separately because it appears to be proxy/edge infrastructure rather than a selectable game-server region.**
 
-| MCPVP.com region | Locations |
+| MCPVP.com region | Officially listed locations |
 |---|---:|
 | North America | 14 |
 | Europe | 8 |
@@ -105,9 +111,9 @@ MCPVP.com advertises **38 total locations** with this regional breakdown:
 
 ## Verification Notes
 
-The individual locations above were recorded from the **in-game Regions menu on MCPVP.com**. The official network reports 14 North American locations, while this repository currently identifies 13 of them.
+The selectable game-server locations in this repository were recorded from the **in-game Regions menu on MCPVP.com**. Seattle is an exception: it is included because MCPVP officially lists Seattle as a North American location, but it is **not currently visible as a selectable game-server region** in the Regions menu based on current observations.
 
-The missing North American location is intentionally left unidentified rather than guessed. Regional headings here are organized for readability and may differ from MCPVP.com's exact category names.
+The Seattle proxy/edge classification is based on observed network behavior and should be treated as a current community observation, not an official MCPVP statement. The possibility that Seattle will become a selectable game-server region in the future is an **estimate only** and is not confirmed.
 
 MCPVP.com can change its Regions menu and infrastructure over time. This repository should therefore be treated as a community-maintained snapshot rather than an official MCPVP datacenter directory.
 
@@ -125,9 +131,10 @@ This repository is intended to be easy to find for searches such as:
 
 ## Contributing
 
-If you can identify the missing North American location, or find a change to any listed location, open an issue or submit a pull request. Include a screenshot or other reliable evidence from the MCPVP.com in-game Regions menu when possible.
+If you find a change to any listed location, or can verify that Seattle has become a selectable game-server region, open an issue or submit a pull request. Include a screenshot or other reliable evidence from the MCPVP.com in-game Regions menu when possible.
 
 ## Source
 
 **Primary source:** MCPVP.com Minecraft server → **Settings → Regions**  
+**Additional source:** MCPVP's officially published location list  
 **Network website:** https://www.mcpvp.com/
